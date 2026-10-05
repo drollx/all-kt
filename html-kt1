@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pen</title>
+  </head>
+  <body>
+    <script src="./script.js"></script>
+  </body>
+</html>
+  <header>
+    <h1>Сайт с баскетом</h1>
+    <div><pre>Мячи                                 Кроссовки                                О нас</pre></div>
+  </header>
+   <div class="image-text-container1">
+      <img src="https://i.pinimg.com/1200x/b2/3d/d7/b23dd7fcaa5defe0e84ffe48f97c11b3.jpg" alt="баскетбол" width="1900">
+      <div class="text-overlay1">ПАСУЙ</div>
+    </div>
+  <div class="container">
+    <div class="item1">
+      <img src="https://i.pinimg.com/1200x/b6/59/1c/b6591cd52e2d1521c02d221975853ff6.jpg" alt="мяч1" width="400">
+      <h1>мяч1</h1>
+      <p>Классный, афигенный, стильный и все другие хорошие прилагательные</p>
+      <h2>Цена: 150000 ₽</h2>
+      <button class="hover">Купить</button>
+    </div>
+    <div class="item2">
+  <img src="https://i.pinimg.com/736x/83/73/29/83732984caeedf3b0b230f4b9ebabaa4.jpg" alt="мяч2" width="400">
+      <h1>мяч2</h1>
+      <p>Оранжевый базовый мяч просто мяч обычный мяч</p>
+      <h2>Цена: 100000 ₽ </h2>
+      <button class="hover">Купить</button>
+    </div>
+    <div class="item3">
+      <img src="https://i.pinimg.com/1200x/62/c3/4c/62c34cf515440c25a1b30825de215781.jpg" alt="мяч3" width="400">
+      <h1>мяч3</h1>
+      <p>мяч</p>
+      <h2>Цена: 200000 ₽</h2>
+      <button class="hover">Купить</button>
+    </div>
+  </div>
+ 
+
+  <div class="main2">
+    <div class="image-text-container2">
+      <img src="https://i.pinimg.com/originals/b4/9d/ad/b49dadd2ac9acce2091803c600339170.gif" alt="анимация мячей" width="1900">
+      <div class="text-overlay2">Буду благодарен за много баллов</div>
+    </div>
+  </div>
+  <footer>
+    <h1>Сюда блииин</h1>
+    <pre>О нас</pre>
+    <pre>Читать о мячах</pre>
+    <pre>Купить мячи</pre>
+  </footer>
+</body>
+</html>
