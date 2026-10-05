@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гитарки</title>
+    <link rel="stylesheet" href="CSSя.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <a href="#" class="logo">Гитарки</a>
+    <nav class="menu">
+        <a href="#">Билеты</a>
+        <a href="#">Мероприятия</a>
+        <a href="#">Открыто сегодня</a>
+        <a href="#">О нас</a>
+        <a href="#">Последние новости</a>
+    </nav>
+    <div id="cart-icon">
+        <i class="ri-shopping-bag-line"></i>
+        <span class="cart-item-count">0</span>
+    </div>
+</header>
+
+<div class="cart">
+    <h2 class="cart-title">Корзина</h2>
+    <div class="cart-content"></div>
+    <div class="total">
+        <div class="total-title">Итого:</div>
+        <div class="total-price">$0</div>
+    </div>
+    <button class="btn-buy">Купить сейчас</button>
+    <i class="ri-close-line" id="cart-close"></i>
+</div>
+
+<section class="hero">
+    <img src="https://i.pinimg.com/1200x/41/cc/b9/41ccb94c4382d7105a8fe7bcd8ebaa22.jpg" alt="Гитара">
+    <div class="hero-content">
+        <h1>Обожаю играть на гитаре, жаль, что не умею</h1>
+        <h4>А мы научим</h4>
+    </div>
+</section>
+
+<section class="shop">
+    <h1 class="section-title">Shop Product</h1>
+    <div class="product-content">
+
+        <div class="product-box">
+            <div class="img-box">
+                <img src="https://i.pinimg.com/1200x/aa/38/e1/aa38e119c59545d43b33fc6711b5a0b7.jpg" alt="Гитарка 1">
+            </div>
+            <h2 class="product-title">Гитарка 1</h2>
+            <div class="price-and-cart">
+                <span class="price">$1000</span>
+                <i class="ri-shopping-bag-line add-cart"></i>
+            </div>
+        </div>
+
+        <div class="product-box">
+            <div class="img-box">
+                <img src="https://i.pinimg.com/1200x/f3/29/d4/f329d45b49c79e698f17fc0d85157830.jpg" alt="Гитарка 2">
+            </div>
+            <h2 class="product-title">Гитарка 2</h2>
+            <div class="price-and-cart">
+                <span class="price">$1200</span>
+                <i class="ri-shopping-bag-line add-cart"></i>
+            </div>
+        </div>
+
+        <div class="product-box">
+            <div class="img-box">
+                <img src="https://i.pinimg.com/736x/e9/6a/af/e96aafb56f2fcba5f79fd5c06a68e114.jpg" alt="Гитарка 3">
+            </div>
+            <h2 class="product-title">Гитарка 3</h2>
+            <div class="price-and-cart">
+                <span class="price">$1500</span>
+                <i class="ri-shopping-bag-line add-cart"></i>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="container1">
+    <div class="box1">
+        <h3>Записаться на вводный урок</h3>
+        <p>Познакомьтесь с нашими преподавателями и узнайте, подходят ли они вам.</p>
+        <p>Куплено: <span class="counter">0</span></p>
+        <button class="buy">Купить</button>
+    </div>
+
+    <div class="box2">
+        <h3>Записаться на занятия</h3>
+        <p>Выберите время.</p>
+        <p>Куплено: <span class="counter">0</span></p>
+        <button class="buy">Купить</button>
+    </div>
+</section>
+
+<section class="form-section">
+    <h2 class="section-title">Связаться с нами</h2>
+    <form class="form">
+        <input type="text" placeholder="Имя" required>
+        <input type="email" placeholder="Email" required>
+        <input type="text" placeholder="Вопрос">
+        <textarea placeholder="Сообщение"></textarea>
+        <button type="submit" class="form-button">Отправить</button>
+    </form>
+</section>
+
+<script src="jjj.js"></script>
+</body>
+</html>
